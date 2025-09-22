@@ -44,9 +44,9 @@ export default function Home() {
                     <Image
                       src="/1.png"
                       alt="Card 1 Logo"
-                      width={200}
+                      width={120}
                       height={120}
-                      className="h-20 w-32 sm:h-24 sm:w-40 object-contain"
+                      className="h-24 w-24 sm:h-28 sm:w-32 object-contain"
                     />
                   </div>
                 ) : index === 1 ? (
@@ -55,9 +55,9 @@ export default function Home() {
                     <Image
                       src="/2.png"
                       alt="Card 2 Logo"
-                      width={200}
+                      width={120}
                       height={120}
-                      className="h-20 w-32 sm:h-24 sm:w-40 object-contain"
+                      className="h-24 w-24 sm:h-28 sm:w-32 object-contain"
                     />
                   </div>
                 ) : index === 2 ? (
@@ -66,9 +66,9 @@ export default function Home() {
                     <Image
                       src="/3.png"
                       alt="Card 3 Logo"
-                      width={200}
-                      height={120}
-                      className="h-20 w-32 sm:h-24 sm:w-40 object-contain"
+                      width={120}
+                      height={140}
+                      className="h-28 w-24 sm:h-32 sm:w-32 object-contain"
                     />
                   </div>
                 ) : index === 3 ? (
@@ -77,9 +77,9 @@ export default function Home() {
                     <Image
                       src="/4.png"
                       alt="Card 4 Logo"
-                      width={200}
-                      height={120}
-                      className="h-20 w-32 sm:h-24 sm:w-40 object-contain"
+                      width={120}
+                      height={80}
+                      className="h-16 w-24 sm:h-20 sm:w-32 object-contain"
                     />
                   </div>
                 ) : index === 4 ? (
@@ -88,9 +88,9 @@ export default function Home() {
                     <Image
                       src="/5.png"
                       alt="Card 5 Logo"
-                      width={200}
-                      height={120}
-                      className="h-20 w-32 sm:h-24 sm:w-40 object-contain"
+                      width={120}
+                      height={80}
+                      className="h-16 w-24 sm:h-20 sm:w-32 object-contain"
                     />
                   </div>
                 ) : index === 5 ? (
@@ -99,9 +99,9 @@ export default function Home() {
                     <Image
                       src="/6.png"
                       alt="Card 6 Logo"
-                      width={200}
-                      height={120}
-                      className="h-20 w-32 sm:h-24 sm:w-40 object-contain"
+                      width={120}
+                      height={80}
+                      className="h-16 w-24 sm:h-20 sm:w-32 object-contain"
                     />
                   </div>
                 ) : index === 6 ? (
@@ -110,9 +110,9 @@ export default function Home() {
                     <Image
                       src="/7.png"
                       alt="Card 7 Logo"
-                      width={200}
-                      height={120}
-                      className="h-20 w-32 sm:h-24 sm:w-40 object-contain"
+                      width={120}
+                      height={140}
+                      className="h-28 w-24 sm:h-32 sm:w-32 object-contain"
                     />
                   </div>
                 ) : index === 7 ? (
@@ -123,12 +123,12 @@ export default function Home() {
                       alt="Card 8 Logo"
                       width={120}
                       height={80}
-                      className="h-12 w-20 sm:h-16 sm:w-28 object-contain"
+                      className="h-16 w-24 sm:h-20 sm:w-32 object-contain"
                     />
                   </div>
                 ) : index === 8 ? (
                   /* Card 9 - Logo removed */
-                  <div className="flex-shrink-0 mt-2">
+                  <div className="flex-shrink-0 mt-2 flex justify-start">
                     {/* Logo removed */}
                   </div>
                 ) : index === 9 ? (
@@ -137,9 +137,9 @@ export default function Home() {
                     <Image
                       src="/10.png"
                       alt="Card 10 Logo"
-                      width={200}
+                      width={120}
                       height={120}
-                      className="h-20 w-32 sm:h-24 sm:w-40 object-contain"
+                      className="h-24 w-24 sm:h-28 sm:w-32 object-contain"
                     />
                   </div>
                 ) : index === 10 ? (
@@ -148,41 +148,21 @@ export default function Home() {
                     <Image
                       src="/11.png"
                       alt="Card 11 Logo"
-                      width={250}
-                      height={150}
-                      className="h-24 w-40 sm:h-28 sm:w-48 object-contain"
+                      width={120}
+                      height={160}
+                      className="h-32 w-24 sm:h-36 sm:w-32 object-contain"
                     />
                   </div>
                 ) : index === 11 ? (
-                  /* Card 12 - Three logos: 2 on top, 1 below */
-                  <div className="flex-shrink-0 mt-2 flex flex-col items-start gap-1 sm:gap-2">
-                    {/* Top row - CPR and Agilex Biolabs */}
-                    <div className="flex items-center gap-2 sm:gap-3 flex-row">
-                      <Image
-                        src="/12th logo/Group 1000004795.png"
-                        alt="CPR Logo"
-                        width={100}
-                        height={60}
-                        className="h-12 w-20 sm:h-16 sm:w-24 object-contain order-1"
-                      />
-                      <Image
-                        src="/12th logo/Group 1000004795 (2).png"
-                        alt="Agilex Biolabs Logo"
-                        width={120}
-                        height={60}
-                        className="h-12 w-24 sm:h-16 sm:w-28 object-contain order-2"
-                      />
-                    </div>
-                    {/* Bottom row - Avance Clinical */}
-                    <div className="flex items-center">
-                      <Image
-                        src="/12th logo/image 15.png"
-                        alt="Avance Clinical Logo"
-                        width={110}
-                        height={60}
-                        className="h-12 w-22 sm:h-16 sm:w-26 object-contain"
-                      />
-                    </div>
+                  /* Card 12 - 12.png */
+                  <div className="flex-shrink-0 mt-2 flex justify-start">
+                    <Image
+                      src="/12.png"
+                      alt="Card 12 Logo"
+                      width={120}
+                      height={180}
+                      className="h-36 w-24 sm:h-40 sm:w-32 object-contain"
+                    />
                   </div>
                 ) : index === 12 ? (
                   /* Card 13 - 13.png */
@@ -190,29 +170,20 @@ export default function Home() {
                     <Image
                       src="/13.png"
                       alt="Card 13 Logo"
-                      width={200}
-                      height={150}
-                      className="h-24 w-32 sm:h-28 sm:w-40 object-contain"
+                      width={120}
+                      height={180}
+                      className="h-36 w-24 sm:h-40 sm:w-32 object-contain"
                     />
                   </div>
                 ) : index === 13 ? (
-                  /* Card 14 - Two logos: One below the other */
-                  <div className="flex-shrink-0 mt-2 flex flex-col items-start gap-0">
-                    {/* First Logo */}
+                  /* Card 14 - 14.png */
+                  <div className="flex-shrink-0 mt-2 flex justify-start">
                     <Image
-                      src="/14th logo/Group 1000004794.png"
-                      alt="Myriotia Logo 1"
-                      width={150}
-                      height={90}
-                      className="h-16 w-24 sm:h-20 sm:w-32 object-contain block"
-                    />
-                    {/* Second Logo */}
-                    <Image
-                      src="/14th logo/image 18.png"
-                      alt="Myriotia Logo 2"
-                      width={150}
-                      height={90}
-                      className="h-16 w-24 sm:h-20 sm:w-32 object-contain block -mt-6 sm:-mt-8"
+                      src="/14.png"
+                      alt="Card 14 Logo"
+                      width={120}
+                      height={180}
+                      className="h-36 w-24 sm:h-40 sm:w-32 object-contain"
                     />
                   </div>
                 ) : index === 14 ? (
@@ -223,7 +194,7 @@ export default function Home() {
                       alt="Card 15 Logo"
                       width={120}
                       height={80}
-                      className="h-12 w-20 sm:h-16 sm:w-28 object-contain"
+                      className="h-16 w-24 sm:h-20 sm:w-32 object-contain"
                     />
                   </div>
                 ) : index === 15 ? (
@@ -234,40 +205,40 @@ export default function Home() {
                       alt="Card 16 Logo"
                       width={120}
                       height={80}
-                      className="h-12 w-20 sm:h-16 sm:w-28 object-contain"
+                      className="h-16 w-24 sm:h-20 sm:w-32 object-contain"
                     />
                   </div>
                 ) : index === 16 ? (
-                  /* Card 17 - 17.webp */
+                  /* Card 17 - 17.png */
                   <div className="flex-shrink-0 mt-2 flex justify-start">
                     <Image
-                      src="/17.webp"
+                      src="/17.png"
                       alt="Card 17 Logo"
                       width={120}
                       height={80}
-                      className="h-12 w-20 sm:h-16 sm:w-28 object-contain"
+                      className="h-16 w-24 sm:h-20 sm:w-32 object-contain"
                     />
                   </div>
                 ) : index === 17 ? (
                   /* Card 18 - 18.png */
-                  <div className="flex-shrink-0 mt-2 -ml-4 flex justify-start">
+                  <div className="flex-shrink-0 mt-2 flex justify-start">
                     <Image
                       src="/18.png"
                       alt="Card 18 Logo"
-                      width={200}
-                      height={120}
-                      className="h-20 w-32 sm:h-24 sm:w-40 object-contain"
+                      width={120}
+                      height={200}
+                      className="h-40 w-24 sm:h-44 sm:w-32 object-contain"
                     />
                   </div>
                 ) : index === 18 ? (
-                  /* Card 19 - 19.webp */
+                  /* Card 19 - 19.png */
                   <div className="flex-shrink-0 mt-2 flex justify-start">
                     <Image
-                      src="/19.webp"
+                      src="/19.png"
                       alt="Card 19 Logo"
                       width={120}
                       height={80}
-                      className="h-12 w-20 sm:h-16 sm:w-28 object-contain"
+                      className="h-16 w-24 sm:h-20 sm:w-32 object-contain"
                     />
                   </div>
                 ) : (
