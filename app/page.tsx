@@ -40,84 +40,84 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-3 sm:gap-4">
                 {index === 0 ? (
                   /* Card 1 - 1.png */
-                  <div className="flex-shrink-0 mt-2">
+                  <div className="flex-shrink-0 mt-2 flex justify-start">
                     <Image
                       src="/1.png"
                       alt="Card 1 Logo"
-                      width={120}
-                      height={80}
-                      className="h-12 w-20 sm:h-16 sm:w-28 object-contain"
+                      width={200}
+                      height={120}
+                      className="h-20 w-32 sm:h-24 sm:w-40 object-contain"
                     />
                   </div>
                 ) : index === 1 ? (
                   /* Card 2 - 2.png */
-                  <div className="flex-shrink-0 mt-2">
+                  <div className="flex-shrink-0 mt-2 flex justify-start">
                     <Image
                       src="/2.png"
                       alt="Card 2 Logo"
-                      width={120}
-                      height={80}
-                      className="h-12 w-20 sm:h-16 sm:w-28 object-contain"
+                      width={200}
+                      height={120}
+                      className="h-20 w-32 sm:h-24 sm:w-40 object-contain"
                     />
                   </div>
                 ) : index === 2 ? (
                   /* Card 3 - 3.png */
-                  <div className="flex-shrink-0 mt-2">
+                  <div className="flex-shrink-0 mt-2 flex justify-start">
                     <Image
                       src="/3.png"
                       alt="Card 3 Logo"
-                      width={120}
-                      height={80}
-                      className="h-12 w-20 sm:h-16 sm:w-28 object-contain"
+                      width={200}
+                      height={120}
+                      className="h-20 w-32 sm:h-24 sm:w-40 object-contain"
                     />
                   </div>
                 ) : index === 3 ? (
                   /* Card 4 - 4.png */
-                  <div className="flex-shrink-0 mt-2">
+                  <div className="flex-shrink-0 mt-2 flex justify-start">
                     <Image
                       src="/4.png"
                       alt="Card 4 Logo"
-                      width={120}
-                      height={80}
-                      className="h-12 w-20 sm:h-16 sm:w-28 object-contain"
+                      width={200}
+                      height={120}
+                      className="h-20 w-32 sm:h-24 sm:w-40 object-contain"
                     />
                   </div>
                 ) : index === 4 ? (
                   /* Card 5 - 5.png */
-                  <div className="flex-shrink-0 mt-2">
+                  <div className="flex-shrink-0 mt-2 flex justify-start">
                     <Image
                       src="/5.png"
                       alt="Card 5 Logo"
-                      width={120}
-                      height={80}
-                      className="h-12 w-20 sm:h-16 sm:w-28 object-contain"
+                      width={200}
+                      height={120}
+                      className="h-20 w-32 sm:h-24 sm:w-40 object-contain"
                     />
                   </div>
                 ) : index === 5 ? (
                   /* Card 6 - 6.png */
-                  <div className="flex-shrink-0 mt-2">
+                  <div className="flex-shrink-0 mt-2 flex justify-start">
                     <Image
                       src="/6.png"
                       alt="Card 6 Logo"
-                      width={120}
-                      height={80}
-                      className="h-12 w-20 sm:h-16 sm:w-28 object-contain"
+                      width={200}
+                      height={120}
+                      className="h-20 w-32 sm:h-24 sm:w-40 object-contain"
                     />
                   </div>
                 ) : index === 6 ? (
                   /* Card 7 - 7.png */
-                  <div className="flex-shrink-0 mt-2">
+                  <div className="flex-shrink-0 mt-2 flex justify-start">
                     <Image
                       src="/7.png"
                       alt="Card 7 Logo"
-                      width={120}
-                      height={80}
-                      className="h-12 w-20 sm:h-16 sm:w-28 object-contain"
+                      width={200}
+                      height={120}
+                      className="h-20 w-32 sm:h-24 sm:w-40 object-contain"
                     />
                   </div>
                 ) : index === 7 ? (
                   /* Card 8 - 8.png */
-                  <div className="flex-shrink-0 mt-2">
+                  <div className="flex-shrink-0 mt-2 flex justify-start">
                     <Image
                       src="/8.png"
                       alt="Card 8 Logo"
@@ -128,7 +128,7 @@ export default function Home() {
                   </div>
                 ) : index === 8 ? (
                   /* Card 9 - 9.jpeg */
-                  <div className="flex-shrink-0 mt-2">
+                  <div className="flex-shrink-0 mt-2 flex justify-start">
                     <Image
                       src="/9.jpeg"
                       alt="Card 9 Logo"
@@ -139,44 +139,44 @@ export default function Home() {
                   </div>
                 ) : index === 9 ? (
                   /* Card 10 - 10.png */
-                  <div className="flex-shrink-0 mt-2">
+                  <div className="flex-shrink-0 mt-2 flex justify-start">
                     <Image
                       src="/10.png"
                       alt="Card 10 Logo"
-                      width={120}
-                      height={80}
-                      className="h-12 w-20 sm:h-16 sm:w-28 object-contain"
+                      width={200}
+                      height={120}
+                      className="h-20 w-32 sm:h-24 sm:w-40 object-contain"
                     />
                   </div>
                 ) : index === 10 ? (
                   /* Card 11 - 11.png */
-                  <div className="flex-shrink-0 mt-2">
+                  <div className="flex-shrink-0 mt-2 flex justify-start">
                     <Image
                       src="/11.png"
                       alt="Card 11 Logo"
-                      width={150}
-                      height={90}
-                      className="h-12 w-18 sm:h-16 sm:h-[90px] sm:w-[150px] object-contain"
+                      width={250}
+                      height={150}
+                      className="h-24 w-40 sm:h-28 sm:w-48 object-contain"
                     />
                   </div>
                 ) : index === 11 ? (
                   /* Card 12 - Three logos: 2 on top, 1 below */
                   <div className="flex-shrink-0 mt-2 flex flex-col items-start gap-1 sm:gap-2">
                     {/* Top row - CPR and Agilex Biolabs */}
-                    <div className="flex items-center gap-2 sm:gap-3">
+                    <div className="flex items-center gap-2 sm:gap-3 flex-row">
                       <Image
                         src="/12th logo/Group 1000004795.png"
                         alt="CPR Logo"
                         width={100}
                         height={60}
-                        className="h-12 w-20 sm:h-16 sm:w-24 object-contain"
+                        className="h-12 w-20 sm:h-16 sm:w-24 object-contain order-1"
                       />
                       <Image
                         src="/12th logo/Group 1000004795 (2).png"
                         alt="Agilex Biolabs Logo"
                         width={120}
                         height={60}
-                        className="h-12 w-24 sm:h-16 sm:w-28 object-contain"
+                        className="h-12 w-24 sm:h-16 sm:w-28 object-contain order-2"
                       />
                     </div>
                     {/* Bottom row - Avance Clinical */}
@@ -192,38 +192,38 @@ export default function Home() {
                   </div>
                 ) : index === 12 ? (
                   /* Card 13 - 13.png */
-                  <div className="flex-shrink-0 mt-2">
+                  <div className="flex-shrink-0 mt-2 flex justify-start">
                     <Image
                       src="/13.png"
                       alt="Card 13 Logo"
-                      width={120}
-                      height={80}
-                      className="h-12 w-20 sm:h-16 sm:w-28 object-contain"
+                      width={200}
+                      height={150}
+                      className="h-24 w-32 sm:h-28 sm:w-40 object-contain"
                     />
                   </div>
                 ) : index === 13 ? (
                   /* Card 14 - Two logos: One below the other */
-                  <div className="flex-shrink-0 mt-2 flex flex-col items-start gap-1 sm:gap-2">
+                  <div className="flex-shrink-0 mt-2 flex flex-col items-start gap-0">
                     {/* First Logo */}
                     <Image
                       src="/14th logo/Group 1000004794.png"
                       alt="Myriotia Logo 1"
-                      width={100}
-                      height={60}
-                      className="h-12 w-20 sm:h-16 sm:w-24 object-contain"
+                      width={150}
+                      height={90}
+                      className="h-16 w-24 sm:h-20 sm:w-32 object-contain"
                     />
                     {/* Second Logo */}
                     <Image
                       src="/14th logo/image 18.png"
                       alt="Myriotia Logo 2"
-                      width={100}
-                      height={60}
-                      className="h-12 w-20 sm:h-16 sm:w-24 object-contain"
+                      width={150}
+                      height={90}
+                      className="h-16 w-24 sm:h-20 sm:w-32 object-contain -mt-1 sm:-mt-1"
                     />
                   </div>
                 ) : index === 14 ? (
                   /* Card 15 - 15.png */
-                  <div className="flex-shrink-0 mt-2">
+                  <div className="flex-shrink-0 mt-2 flex justify-start">
                     <Image
                       src="/15.png"
                       alt="Card 15 Logo"
@@ -234,7 +234,7 @@ export default function Home() {
                   </div>
                 ) : index === 15 ? (
                   /* Card 16 - 16.png */
-                  <div className="flex-shrink-0 mt-2">
+                  <div className="flex-shrink-0 mt-2 flex justify-start">
                     <Image
                       src="/16.png"
                       alt="Card 16 Logo"
@@ -245,7 +245,7 @@ export default function Home() {
                   </div>
                 ) : index === 16 ? (
                   /* Card 17 - 17.webp */
-                  <div className="flex-shrink-0 mt-2">
+                  <div className="flex-shrink-0 mt-2 flex justify-start">
                     <Image
                       src="/17.webp"
                       alt="Card 17 Logo"
@@ -256,18 +256,18 @@ export default function Home() {
                   </div>
                 ) : index === 17 ? (
                   /* Card 18 - 18.png */
-                  <div className="flex-shrink-0 mt-2 -ml-4">
+                  <div className="flex-shrink-0 mt-2 -ml-4 flex justify-start">
                     <Image
                       src="/18.png"
                       alt="Card 18 Logo"
-                      width={150}
-                      height={90}
-                      className="h-12 w-18 sm:h-16 sm:h-[90px] sm:w-[150px] object-contain"
+                      width={200}
+                      height={120}
+                      className="h-20 w-32 sm:h-24 sm:w-40 object-contain"
                     />
                   </div>
                 ) : index === 18 ? (
                   /* Card 19 - 19.webp */
-                  <div className="flex-shrink-0 mt-2">
+                  <div className="flex-shrink-0 mt-2 flex justify-start">
                     <Image
                       src="/19.webp"
                       alt="Card 19 Logo"
@@ -278,7 +278,7 @@ export default function Home() {
                   </div>
                 ) : (
                   /* Original logo section for all other cards */
-                  <div className="flex items-center gap-2 flex-shrink-0">
+                  <div className="flex items-center gap-2 flex-shrink-0 justify-start">
                     {/* Banyan logo square */}
                     <div className="w-16 h-16 bg-green-800 rounded-lg flex flex-col items-center justify-center">
                       <span className="text-white text-sm font-bold leading-tight">banyan</span>
