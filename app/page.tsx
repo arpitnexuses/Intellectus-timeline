@@ -127,15 +127,9 @@ export default function Home() {
                     />
                   </div>
                 ) : index === 8 ? (
-                  /* Card 9 - 9.jpeg */
-                  <div className="flex-shrink-0 mt-2 flex justify-start">
-                    <Image
-                      src="/9.jpeg"
-                      alt="Card 9 Logo"
-                      width={120}
-                      height={80}
-                      className="h-12 w-20 sm:h-16 sm:w-28 object-contain"
-                    />
+                  /* Card 9 - Logo removed */
+                  <div className="flex-shrink-0 mt-2">
+                    {/* Logo removed */}
                   </div>
                 ) : index === 9 ? (
                   /* Card 10 - 10.png */
@@ -210,7 +204,7 @@ export default function Home() {
                       alt="Myriotia Logo 1"
                       width={150}
                       height={90}
-                      className="h-16 w-24 sm:h-20 sm:w-32 object-contain"
+                      className="h-16 w-24 sm:h-20 sm:w-32 object-contain block"
                     />
                     {/* Second Logo */}
                     <Image
@@ -218,7 +212,7 @@ export default function Home() {
                       alt="Myriotia Logo 2"
                       width={150}
                       height={90}
-                      className="h-16 w-24 sm:h-20 sm:w-32 object-contain -mt-1 sm:-mt-1"
+                      className="h-16 w-24 sm:h-20 sm:w-32 object-contain block -mt-6 sm:-mt-8"
                     />
                   </div>
                 ) : index === 14 ? (
