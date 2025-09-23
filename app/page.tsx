@@ -8,7 +8,7 @@ export default function Home() {
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-6">
           {Array.from({ length: 19 }, (_, index) => (
-            <Card key={index} className="bg-white border border-gray-200 rounded-lg p-3 sm:p-6 relative min-h-[200px] sm:min-h-[220px] w-full transition-all duration-300 ease-in-out hover:scale-105 hover:border-2 hover:border-[#26baf1] hover:shadow-lg cursor-pointer">
+            <Card key={index} className="bg-white border border-gray-200 rounded-lg p-2 sm:p-4 relative min-h-[140px] sm:min-h-[160px] w-full transition-all duration-300 ease-in-out hover:scale-105 hover:border-2 hover:border-[#26baf1] hover:shadow-lg cursor-pointer">
               <div className="absolute top-1 right-1 sm:top-4 sm:right-4">
                 <span className="text-gray-400 text-[10px] sm:text-sm font-medium">
                   {index === 6
@@ -37,208 +37,208 @@ export default function Home() {
                 </span>
               </div>
 
-              <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4">
+              <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3">
                 {index === 0 ? (
                   /* Card 1 - 1.png */
-                  <div className="flex-shrink-0 mt-2 flex justify-start">
+                  <div className="flex-shrink-0 mt-1 flex justify-start">
                     <Image
                       src="/1.png"
                       alt="Card 1 Logo"
                       width={120}
                       height={120}
-                      className="h-20 w-24 sm:h-24 sm:w-32 object-contain"
+                      className="h-16 w-20 sm:h-20 sm:w-28 object-contain"
                     />
                   </div>
                 ) : index === 1 ? (
                   /* Card 2 - 2.png */
-                  <div className="flex-shrink-0 mt-2 flex justify-start">
+                  <div className="flex-shrink-0 mt-1 flex justify-start">
                     <Image
                       src="/2.png"
                       alt="Card 2 Logo"
                       width={120}
                       height={120}
-                      className="h-20 w-24 sm:h-24 sm:w-32 object-contain"
+                      className="h-16 w-20 sm:h-20 sm:w-28 object-contain"
                     />
                   </div>
                 ) : index === 2 ? (
                   /* Card 3 - 3.png */
-                  <div className="flex-shrink-0 mt-2 flex justify-start">
+                  <div className="flex-shrink-0 mt-1 flex justify-start">
                     <Image
                       src="/3.png"
                       alt="Card 3 Logo"
                       width={120}
                       height={120}
-                      className="h-20 w-24 sm:h-24 sm:w-32 object-contain"
+                      className="h-16 w-20 sm:h-20 sm:w-28 object-contain"
                     />
                   </div>
                 ) : index === 3 ? (
                   /* Card 4 - 4.png */
-                  <div className="flex-shrink-0 mt-2 flex justify-start">
+                  <div className="flex-shrink-0 mt-1 flex justify-start">
                     <Image
                       src="/4.png"
                       alt="Card 4 Logo"
                       width={120}
                       height={120}
-                      className="h-20 w-24 sm:h-24 sm:w-32 object-contain"
+                      className="h-16 w-20 sm:h-20 sm:w-28 object-contain"
                     />
                   </div>
                 ) : index === 4 ? (
                   /* Card 5 - 5.png */
-                  <div className="flex-shrink-0 mt-2 flex justify-start">
+                  <div className="flex-shrink-0 mt-1 flex justify-start">
                     <Image
                       src="/5.png"
                       alt="Card 5 Logo"
                       width={120}
                       height={120}
-                      className="h-20 w-24 sm:h-24 sm:w-32 object-contain"
+                      className="h-16 w-20 sm:h-20 sm:w-28 object-contain"
                     />
                   </div>
                 ) : index === 5 ? (
                   /* Card 6 - 6.png */
-                  <div className="flex-shrink-0 mt-2 flex justify-start">
+                  <div className="flex-shrink-0 mt-1 flex justify-start">
                     <Image
                       src="/6.png"
                       alt="Card 6 Logo"
                       width={120}
                       height={120}
-                      className="h-20 w-24 sm:h-24 sm:w-32 object-contain"
+                      className="h-16 w-20 sm:h-20 sm:w-28 object-contain"
                     />
                   </div>
                 ) : index === 6 ? (
                   /* Card 7 - 7.png */
-                  <div className="flex-shrink-0 mt-2 flex justify-start">
+                  <div className="flex-shrink-0 mt-1 flex justify-start">
                     <Image
                       src="/7.png"
                       alt="Card 7 Logo"
                       width={120}
                       height={120}
-                      className="h-20 w-24 sm:h-24 sm:w-32 object-contain"
+                      className="h-16 w-20 sm:h-20 sm:w-28 object-contain"
                     />
                   </div>
                 ) : index === 7 ? (
                   /* Card 8 - 8.png */
-                  <div className="flex-shrink-0 mt-2 flex justify-start">
+                  <div className="flex-shrink-0 mt-1 flex justify-start">
                     <Image
                       src="/8.png"
                       alt="Card 8 Logo"
                       width={120}
                       height={120}
-                      className="h-20 w-24 sm:h-24 sm:w-32 object-contain"
+                      className="h-16 w-20 sm:h-20 sm:w-28 object-contain"
                     />
                   </div>
                 ) : index === 8 ? (
                   /* Card 9 - Logo removed */
-                  <div className="flex-shrink-0 mt-2 flex justify-start">
+                  <div className="flex-shrink-0 mt-1 flex justify-start">
                     {/* Logo removed */}
                   </div>
                 ) : index === 9 ? (
                   /* Card 10 - 10.png */
-                  <div className="flex-shrink-0 mt-2 flex justify-start">
+                  <div className="flex-shrink-0 mt-1 flex justify-start">
                     <Image
                       src="/10.png"
                       alt="Card 10 Logo"
                       width={120}
                       height={120}
-                      className="h-20 w-24 sm:h-24 sm:w-32 object-contain"
+                      className="h-16 w-20 sm:h-20 sm:w-28 object-contain"
                     />
                   </div>
                 ) : index === 10 ? (
                   /* Card 11 - 11.png */
-                  <div className="flex-shrink-0 mt-2 flex justify-start">
+                  <div className="flex-shrink-0 mt-1 flex justify-start">
                     <Image
                       src="/11.png"
                       alt="Card 11 Logo"
                       width={120}
                       height={120}
-                      className="h-20 w-24 sm:h-24 sm:w-32 object-contain"
+                      className="h-16 w-20 sm:h-20 sm:w-28 object-contain"
                     />
                   </div>
                 ) : index === 11 ? (
                   /* Card 12 - 12.png */
-                  <div className="flex-shrink-0 mt-2 flex justify-start">
+                  <div className="flex-shrink-0 mt-1 flex justify-start">
                     <Image
                       src="/12.png"
                       alt="Card 12 Logo"
                       width={120}
                       height={120}
-                      className="h-20 w-24 sm:h-24 sm:w-32 object-contain"
+                      className="h-16 w-20 sm:h-20 sm:w-28 object-contain"
                     />
                   </div>
                 ) : index === 12 ? (
                   /* Card 13 - 13.png */
-                  <div className="flex-shrink-0 mt-2 flex justify-start">
+                  <div className="flex-shrink-0 mt-1 flex justify-start">
                     <Image
                       src="/13.png"
                       alt="Card 13 Logo"
                       width={120}
                       height={120}
-                      className="h-20 w-24 sm:h-24 sm:w-32 object-contain"
+                      className="h-16 w-20 sm:h-20 sm:w-28 object-contain"
                     />
                   </div>
                 ) : index === 13 ? (
                   /* Card 14 - 14.png */
-                  <div className="flex-shrink-0 mt-2 flex justify-start">
+                  <div className="flex-shrink-0 mt-1 flex justify-start">
                     <Image
                       src="/14.png"
                       alt="Card 14 Logo"
                       width={120}
                       height={120}
-                      className="h-20 w-24 sm:h-24 sm:w-32 object-contain"
+                      className="h-16 w-20 sm:h-20 sm:w-28 object-contain"
                     />
                   </div>
                 ) : index === 14 ? (
                   /* Card 15 - 15.png */
-                  <div className="flex-shrink-0 mt-2 flex justify-start">
+                  <div className="flex-shrink-0 mt-1 flex justify-start">
                     <Image
                       src="/15.png"
                       alt="Card 15 Logo"
                       width={120}
                       height={120}
-                      className="h-20 w-24 sm:h-24 sm:w-32 object-contain"
+                      className="h-16 w-20 sm:h-20 sm:w-28 object-contain"
                     />
                   </div>
                 ) : index === 15 ? (
                   /* Card 16 - 16.png */
-                  <div className="flex-shrink-0 mt-2 flex justify-start">
+                  <div className="flex-shrink-0 mt-1 flex justify-start">
                     <Image
                       src="/16.png"
                       alt="Card 16 Logo"
                       width={120}
                       height={120}
-                      className="h-20 w-24 sm:h-24 sm:w-32 object-contain"
+                      className="h-16 w-20 sm:h-20 sm:w-28 object-contain"
                     />
                   </div>
                 ) : index === 16 ? (
                   /* Card 17 - 17.png */
-                  <div className="flex-shrink-0 mt-2 flex justify-start">
+                  <div className="flex-shrink-0 mt-1 flex justify-start">
                     <Image
                       src="/17.png"
                       alt="Card 17 Logo"
                       width={120}
                       height={120}
-                      className="h-20 w-24 sm:h-24 sm:w-32 object-contain"
+                      className="h-16 w-20 sm:h-20 sm:w-28 object-contain"
                     />
                   </div>
                 ) : index === 17 ? (
                   /* Card 18 - 18.png */
-                  <div className="flex-shrink-0 mt-2 flex justify-start">
+                  <div className="flex-shrink-0 mt-1 flex justify-start">
                     <Image
                       src="/18.png"
                       alt="Card 18 Logo"
                       width={120}
                       height={120}
-                      className="h-20 w-24 sm:h-24 sm:w-32 object-contain"
+                      className="h-16 w-20 sm:h-20 sm:w-28 object-contain"
                     />
                   </div>
                 ) : index === 18 ? (
                   /* Card 19 - 19.png */
-                  <div className="flex-shrink-0 mt-2 flex justify-start">
+                  <div className="flex-shrink-0 mt-1 flex justify-start">
                     <Image
                       src="/19.png"
                       alt="Card 19 Logo"
                       width={120}
                       height={120}
-                      className="h-20 w-24 sm:h-24 sm:w-32 object-contain"
+                      className="h-16 w-20 sm:h-20 sm:w-28 object-contain"
                     />
                   </div>
                 ) : (
@@ -260,7 +260,7 @@ export default function Home() {
 
                 {/* Content section on the right */}
                 <div className="flex-1 text-left">
-                  <h3 className="text-sm sm:text-xl font-bold text-gray-900 mb-1 sm:mb-2 pt-[5px] sm:pt-[10px]">
+                  <h3 className="text-sm sm:text-xl font-bold text-gray-900 mb-1 sm:mb-2 pt-[15px]">
                     {index === 1
                       ? "Worldsmart"
                       : index === 2
@@ -377,7 +377,7 @@ export default function Home() {
                                                   : "B2B SaaS"}
                     </span>
                   </div>
-                  <p className="text-gray-600 text-[10px] sm:text-sm pb-[15px] sm:pb-[20px] leading-relaxed">
+                  <p className="text-gray-600 text-[10px] sm:text-sm pb-[5px] sm:pb-[8px] leading-relaxed">
                     {index === 2
                       ? "Buy side – Acquisition by Igneo Infrastructure Partners"
                       : index === 3 || index === 4
@@ -416,7 +416,7 @@ export default function Home() {
               </div>
 
               {/* Date in bottom right */}
-              <div className="absolute bottom-1 right-1 sm:bottom-4 sm:right-4 flex items-center gap-0.5 sm:gap-1 text-gray-500 pt-[5px] sm:pt-[10px]">
+              <div className="absolute bottom-1 right-1 sm:bottom-2 sm:right-4 flex items-center gap-0.5 sm:gap-1 text-gray-500">
                 <Calendar className="w-2.5 h-2.5 sm:w-4 sm:h-4" />
                 <span className="text-[10px] sm:text-sm">
                   {index === 3 || index === 4 || index === 5 || index === 7 || index === 8
