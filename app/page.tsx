@@ -4,13 +4,13 @@ import Image from "next/image"
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-50 p-2 sm:p-4 sm:p-6 lg:p-8">
+    <div className="min-h-screen bg-white p-2 sm:p-6 lg:p-8">
       <div className="max-w-6xl mx-auto">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 sm:gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-6">
           {Array.from({ length: 19 }, (_, index) => (
-            <Card key={index} className="bg-white border border-gray-200 rounded-lg p-3 sm:p-4 sm:p-6 relative min-h-[130px] sm:min-h-[120px] sm:min-h-[140px] w-full transition-all duration-300 ease-in-out hover:scale-105 hover:border-2 hover:border-[#26baf1] hover:shadow-lg cursor-pointer">
-              <div className="absolute top-1 right-1 sm:top-2 sm:top-4 sm:right-4">
-                <span className="text-gray-400 text-[10px] sm:text-xs sm:text-sm font-medium">
+            <Card key={index} className="bg-white border border-gray-200 rounded-lg p-3 sm:p-6 relative min-h-[200px] sm:min-h-[220px] w-full transition-all duration-300 ease-in-out hover:scale-105 hover:border-2 hover:border-[#26baf1] hover:shadow-lg cursor-pointer">
+              <div className="absolute top-1 right-1 sm:top-4 sm:right-4">
+                <span className="text-gray-400 text-[10px] sm:text-sm font-medium">
                   {index === 6
                     ? "$100,000,000+"
                     : index === 8
@@ -37,7 +37,7 @@ export default function Home() {
                 </span>
               </div>
 
-              <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-3 sm:gap-4">
+              <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4">
                 {index === 0 ? (
                   /* Card 1 - 1.png */
                   <div className="flex-shrink-0 mt-2 flex justify-start">
@@ -46,7 +46,7 @@ export default function Home() {
                       alt="Card 1 Logo"
                       width={120}
                       height={120}
-                      className="h-24 w-24 sm:h-28 sm:w-32 object-contain"
+                      className="h-20 w-24 sm:h-24 sm:w-32 object-contain"
                     />
                   </div>
                 ) : index === 1 ? (
@@ -57,7 +57,7 @@ export default function Home() {
                       alt="Card 2 Logo"
                       width={120}
                       height={120}
-                      className="h-24 w-24 sm:h-28 sm:w-32 object-contain"
+                      className="h-20 w-24 sm:h-24 sm:w-32 object-contain"
                     />
                   </div>
                 ) : index === 2 ? (
@@ -67,8 +67,8 @@ export default function Home() {
                       src="/3.png"
                       alt="Card 3 Logo"
                       width={120}
-                      height={140}
-                      className="h-28 w-24 sm:h-32 sm:w-32 object-contain"
+                      height={120}
+                      className="h-20 w-24 sm:h-24 sm:w-32 object-contain"
                     />
                   </div>
                 ) : index === 3 ? (
@@ -78,8 +78,8 @@ export default function Home() {
                       src="/4.png"
                       alt="Card 4 Logo"
                       width={120}
-                      height={80}
-                      className="h-16 w-24 sm:h-20 sm:w-32 object-contain"
+                      height={120}
+                      className="h-20 w-24 sm:h-24 sm:w-32 object-contain"
                     />
                   </div>
                 ) : index === 4 ? (
@@ -89,8 +89,8 @@ export default function Home() {
                       src="/5.png"
                       alt="Card 5 Logo"
                       width={120}
-                      height={80}
-                      className="h-16 w-24 sm:h-20 sm:w-32 object-contain"
+                      height={120}
+                      className="h-20 w-24 sm:h-24 sm:w-32 object-contain"
                     />
                   </div>
                 ) : index === 5 ? (
@@ -100,8 +100,8 @@ export default function Home() {
                       src="/6.png"
                       alt="Card 6 Logo"
                       width={120}
-                      height={80}
-                      className="h-16 w-24 sm:h-20 sm:w-32 object-contain"
+                      height={120}
+                      className="h-20 w-24 sm:h-24 sm:w-32 object-contain"
                     />
                   </div>
                 ) : index === 6 ? (
@@ -111,8 +111,8 @@ export default function Home() {
                       src="/7.png"
                       alt="Card 7 Logo"
                       width={120}
-                      height={140}
-                      className="h-28 w-24 sm:h-32 sm:w-32 object-contain"
+                      height={120}
+                      className="h-20 w-24 sm:h-24 sm:w-32 object-contain"
                     />
                   </div>
                 ) : index === 7 ? (
@@ -122,8 +122,8 @@ export default function Home() {
                       src="/8.png"
                       alt="Card 8 Logo"
                       width={120}
-                      height={80}
-                      className="h-16 w-24 sm:h-20 sm:w-32 object-contain"
+                      height={120}
+                      className="h-20 w-24 sm:h-24 sm:w-32 object-contain"
                     />
                   </div>
                 ) : index === 8 ? (
@@ -139,7 +139,7 @@ export default function Home() {
                       alt="Card 10 Logo"
                       width={120}
                       height={120}
-                      className="h-24 w-24 sm:h-28 sm:w-32 object-contain"
+                      className="h-20 w-24 sm:h-24 sm:w-32 object-contain"
                     />
                   </div>
                 ) : index === 10 ? (
@@ -149,8 +149,8 @@ export default function Home() {
                       src="/11.png"
                       alt="Card 11 Logo"
                       width={120}
-                      height={160}
-                      className="h-32 w-24 sm:h-36 sm:w-32 object-contain"
+                      height={120}
+                      className="h-20 w-24 sm:h-24 sm:w-32 object-contain"
                     />
                   </div>
                 ) : index === 11 ? (
@@ -160,8 +160,8 @@ export default function Home() {
                       src="/12.png"
                       alt="Card 12 Logo"
                       width={120}
-                      height={180}
-                      className="h-36 w-24 sm:h-40 sm:w-32 object-contain"
+                      height={120}
+                      className="h-20 w-24 sm:h-24 sm:w-32 object-contain"
                     />
                   </div>
                 ) : index === 12 ? (
@@ -171,8 +171,8 @@ export default function Home() {
                       src="/13.png"
                       alt="Card 13 Logo"
                       width={120}
-                      height={180}
-                      className="h-36 w-24 sm:h-40 sm:w-32 object-contain"
+                      height={120}
+                      className="h-20 w-24 sm:h-24 sm:w-32 object-contain"
                     />
                   </div>
                 ) : index === 13 ? (
@@ -182,8 +182,8 @@ export default function Home() {
                       src="/14.png"
                       alt="Card 14 Logo"
                       width={120}
-                      height={180}
-                      className="h-36 w-24 sm:h-40 sm:w-32 object-contain"
+                      height={120}
+                      className="h-20 w-24 sm:h-24 sm:w-32 object-contain"
                     />
                   </div>
                 ) : index === 14 ? (
@@ -193,8 +193,8 @@ export default function Home() {
                       src="/15.png"
                       alt="Card 15 Logo"
                       width={120}
-                      height={80}
-                      className="h-16 w-24 sm:h-20 sm:w-32 object-contain"
+                      height={120}
+                      className="h-20 w-24 sm:h-24 sm:w-32 object-contain"
                     />
                   </div>
                 ) : index === 15 ? (
@@ -204,8 +204,8 @@ export default function Home() {
                       src="/16.png"
                       alt="Card 16 Logo"
                       width={120}
-                      height={80}
-                      className="h-16 w-24 sm:h-20 sm:w-32 object-contain"
+                      height={120}
+                      className="h-20 w-24 sm:h-24 sm:w-32 object-contain"
                     />
                   </div>
                 ) : index === 16 ? (
@@ -215,8 +215,8 @@ export default function Home() {
                       src="/17.png"
                       alt="Card 17 Logo"
                       width={120}
-                      height={80}
-                      className="h-16 w-24 sm:h-20 sm:w-32 object-contain"
+                      height={120}
+                      className="h-20 w-24 sm:h-24 sm:w-32 object-contain"
                     />
                   </div>
                 ) : index === 17 ? (
@@ -226,8 +226,8 @@ export default function Home() {
                       src="/18.png"
                       alt="Card 18 Logo"
                       width={120}
-                      height={200}
-                      className="h-40 w-24 sm:h-44 sm:w-32 object-contain"
+                      height={120}
+                      className="h-20 w-24 sm:h-24 sm:w-32 object-contain"
                     />
                   </div>
                 ) : index === 18 ? (
@@ -237,8 +237,8 @@ export default function Home() {
                       src="/19.png"
                       alt="Card 19 Logo"
                       width={120}
-                      height={80}
-                      className="h-16 w-24 sm:h-20 sm:w-32 object-contain"
+                      height={120}
+                      className="h-20 w-24 sm:h-24 sm:w-32 object-contain"
                     />
                   </div>
                 ) : (
@@ -260,7 +260,7 @@ export default function Home() {
 
                 {/* Content section on the right */}
                 <div className="flex-1 text-left">
-                  <h3 className="text-sm sm:text-lg sm:text-xl font-bold text-gray-900 mb-1 sm:mb-2 pt-[5px] sm:pt-[10px]">
+                  <h3 className="text-sm sm:text-xl font-bold text-gray-900 mb-1 sm:mb-2 pt-[5px] sm:pt-[10px]">
                     {index === 1
                       ? "Worldsmart"
                       : index === 2
@@ -377,7 +377,7 @@ export default function Home() {
                                                   : "B2B SaaS"}
                     </span>
                   </div>
-                  <p className="text-gray-600 text-[10px] sm:text-xs sm:text-sm pb-[15px] sm:pb-[20px] leading-relaxed">
+                  <p className="text-gray-600 text-[10px] sm:text-sm pb-[15px] sm:pb-[20px] leading-relaxed">
                     {index === 2
                       ? "Buy side – Acquisition by Igneo Infrastructure Partners"
                       : index === 3 || index === 4
@@ -416,9 +416,9 @@ export default function Home() {
               </div>
 
               {/* Date in bottom right */}
-              <div className="absolute bottom-1 right-1 sm:bottom-2 sm:bottom-4 sm:right-4 flex items-center gap-0.5 sm:gap-1 text-gray-500 pt-[5px] sm:pt-[10px]">
-                <Calendar className="w-2.5 h-2.5 sm:w-3 sm:w-4 sm:h-4" />
-                <span className="text-[10px] sm:text-xs sm:text-sm">
+              <div className="absolute bottom-1 right-1 sm:bottom-4 sm:right-4 flex items-center gap-0.5 sm:gap-1 text-gray-500 pt-[5px] sm:pt-[10px]">
+                <Calendar className="w-2.5 h-2.5 sm:w-4 sm:h-4" />
+                <span className="text-[10px] sm:text-sm">
                   {index === 3 || index === 4 || index === 5 || index === 7 || index === 8
                     ? "2022"
                     : index === 6
@@ -449,8 +449,8 @@ export default function Home() {
         </div>
         
         {/* Disclaimer text below the cards */}
-        <div className="mt-4 sm:mt-6 sm:mt-8 text-left px-1 sm:px-2 sm:px-0">
-          <p className="text-[10px] sm:text-xs sm:text-sm text-gray-600 italic leading-relaxed">
+        <div className="mt-4 sm:mt-8 text-left px-1 sm:px-0">
+          <p className="text-[10px] sm:text-sm text-gray-600 italic leading-relaxed">
             <span className="text-black font-bold not-italic">Disclaimer:</span> Transactions prior to February 2022 were advised by the Partners in their previous roles
           </p>
         </div>
