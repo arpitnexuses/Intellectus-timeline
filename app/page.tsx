@@ -6,12 +6,12 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white p-2 sm:p-6 lg:p-8">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-6 sm:ml-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-6">
           {Array.from({ length: 19 }, (_, index) => (
             <Card key={index} className={`bg-white border border-gray-200 rounded-lg p-2 sm:p-4 relative min-h-[140px] sm:min-h-[160px] w-full transition-all duration-300 ease-in-out hover:scale-105 hover:border-2 hover:border-[#26baf1] hover:shadow-lg cursor-pointer ${
               index % 2 === 0 
-                ? 'sm:mr-0 sm:ml-0 sm:w-[calc(100%-5.625rem)]' 
-                : 'sm:ml-0 sm:mr-0 sm:w-[calc(100%-3.125rem)]'
+                ? 'sm:mr-0 sm:ml-[-2rem] sm:w-[calc(100%+2rem)]' 
+                : 'sm:ml-0 sm:mr-[-2rem] sm:w-[calc(100%+2rem)]'
             }`}>
               <div className="absolute top-1 right-1 sm:top-4 sm:right-4">
                 <span className="text-gray-400 text-[10px] sm:text-sm font-medium">
@@ -453,12 +453,13 @@ export default function Home() {
         </div>
         
         {/* Disclaimer text below the cards */}
-        <div className="mt-4 sm:mt-8 text-left px-1 sm:px-0">
-          <p className="text-[10px] sm:text-sm text-gray-600 leading-relaxed">
-            <span className="text-black font-bold not-italic">Disclaimer:</span> Transactions prior to February 2022 were advised by the Partners in their previous roles.
-          </p>
-        </div>
+         <div className="mt-4 sm:mt-8 text-left px-1 sm:px-0">
+           <p className="text-[10px] sm:text-sm text-gray-600 leading-relaxed">
+             <span className="text-black font-bold">Disclaimer:</span> Transactions prior to February 2022 were advised by the Partners in their previous roles
+           </p>
+         </div>
       </div>
     </div>
   )
 }
+
