@@ -5,10 +5,14 @@ import Image from "next/image"
 export default function Home() {
   return (
     <div className="min-h-screen bg-white p-2 sm:p-6 lg:p-8">
-      <div className="max-w-6xl mx-auto">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-6">
+      <div className="max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-6 sm:ml-5">
           {Array.from({ length: 19 }, (_, index) => (
-            <Card key={index} className="bg-white border border-gray-200 rounded-lg p-2 sm:p-4 relative min-h-[140px] sm:min-h-[160px] w-full transition-all duration-300 ease-in-out hover:scale-105 hover:border-2 hover:border-[#26baf1] hover:shadow-lg cursor-pointer">
+            <Card key={index} className={`bg-white border border-gray-200 rounded-lg p-2 sm:p-4 relative min-h-[140px] sm:min-h-[160px] w-full transition-all duration-300 ease-in-out hover:scale-105 hover:border-2 hover:border-[#26baf1] hover:shadow-lg cursor-pointer ${
+              index % 2 === 0 
+                ? 'sm:mr-0 sm:ml-0 sm:w-[calc(100%-5.625rem)]' 
+                : 'sm:ml-0 sm:mr-0 sm:w-[calc(100%-3.125rem)]'
+            }`}>
               <div className="absolute top-1 right-1 sm:top-4 sm:right-4">
                 <span className="text-gray-400 text-[10px] sm:text-sm font-medium">
                   {index === 6
@@ -156,10 +160,10 @@ export default function Home() {
                 ) : index === 11 ? (
                   /* Card 12 - 12.png */
                   <div className="flex-shrink-0 mt-1 flex justify-start">
-                    <Image
+                      <Image
                       src="/12.png"
                       alt="Card 12 Logo"
-                      width={120}
+                        width={120}
                       height={120}
                       className="h-16 w-20 sm:h-20 sm:w-28 object-contain"
                     />
@@ -450,8 +454,8 @@ export default function Home() {
         
         {/* Disclaimer text below the cards */}
         <div className="mt-4 sm:mt-8 text-left px-1 sm:px-0">
-          <p className="text-[10px] sm:text-sm text-gray-600 italic leading-relaxed">
-            <span className="text-black font-bold not-italic">Disclaimer:</span> Transactions prior to February 2022 were advised by the Partners in their previous roles
+          <p className="text-[10px] sm:text-sm text-gray-600 leading-relaxed">
+            <span className="text-black font-bold not-italic">Disclaimer:</span> Transactions prior to February 2022 were advised by the Partners in their previous roles.
           </p>
         </div>
       </div>
