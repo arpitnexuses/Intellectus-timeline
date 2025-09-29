@@ -456,8 +456,8 @@ export default function Home() {
          <div className="mt-4 sm:mt-8 text-left px-1 sm:px-0">
            <p className="text-[10px] sm:text-sm text-gray-600 leading-relaxed">
              <span className="text-black font-bold">Disclaimer:</span> Transactions prior to February 2022 were advised by the Partners in their previous roles.
-           </p>
-         </div>
+          </p>
+        </div>
       </div>
     </div>
   )
