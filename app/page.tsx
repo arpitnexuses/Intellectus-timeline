@@ -9,9 +9,9 @@ export default function Home() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-6">
           {Array.from({ length: 19 }, (_, index) => (
             <Card key={index} className={`bg-white border border-gray-200 rounded-lg p-2 sm:p-4 relative min-h-[140px] sm:min-h-[160px] w-full transition-all duration-300 ease-in-out hover:scale-105 hover:border-2 hover:border-[#26baf1] hover:shadow-lg cursor-pointer ${
-              index % 2 === 0 
-                ? 'sm:mr-0 sm:ml-[-2rem] sm:w-[calc(100%+2rem)]' 
-                : 'sm:ml-0 sm:mr-[-2rem] sm:w-[calc(100%+2rem)]'
+              index % 2 === 0
+                ? 'sm:ml-4 sm:mr-0 sm:w-[calc(100%-1rem)]'
+                : 'sm:mr-4 sm:ml-0 sm:w-[calc(100%-1rem)]'
             }`}>
               <div className="absolute top-1 right-1 sm:top-4 sm:right-4">
                 <span className="text-gray-400 text-[10px] sm:text-sm font-medium">
