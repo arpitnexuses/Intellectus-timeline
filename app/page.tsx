@@ -6,20 +6,6 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white p-2 sm:p-6 lg:p-8">
       <div className="max-w-7xl mx-auto">
-        {/* PEXA Logo Header */}
-        <div className="flex justify-center items-center mb-6 sm:mb-8 lg:mb-12">
-          <div className="relative">
-            <Image
-              src="/20.png"
-              alt="PEXA Logo"
-              width={200}
-              height={80}
-              className="h-12 w-auto sm:h-16 sm:w-auto lg:h-20 lg:w-auto object-contain transition-all duration-300 hover:scale-105"
-              priority
-            />
-          </div>
-        </div>
-        
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-6">
           {Array.from({ length: 19 }, (_, index) => (
             <Card key={index} className={`bg-white border border-gray-200 rounded-lg p-2 sm:p-4 relative min-h-[140px] sm:min-h-[160px] w-full transition-all duration-300 ease-in-out hover:scale-105 hover:border-2 hover:border-[#26baf1] hover:shadow-lg cursor-pointer ${
